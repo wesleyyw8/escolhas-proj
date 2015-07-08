@@ -37,6 +37,7 @@ public class IndexController {
 		ModelAndView mv = new ModelAndView("index");
 		mv.addObject("profession", true);
 		mv.addObject(lista);
+		//aa
 		return mv;
 	}
 	
