@@ -1,0 +1,44 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.quadro{
+	position: relative;
+	width: 60%;
+	height: 500px;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+}
+.quadroDentro{
+	display: block;
+	position: relative;
+	height: 400px;
+	width: 400px;
+	border: 1px solid black;
+}
+.quadroDentroEsquerda{
+	float:left;
+}
+.quadroDentroDireita{
+	float:left;
+}
+.versus{
+	float: left;
+	color: red;
+	font-weight: bold;
+	font-size: 19px;
+}
+.tituloLivro{
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	font-weight: bold;
+}
+.btn{
+	position: absolute;
+	bottom: 0px;
+	left: 40%;
+	right: 40%;
+}
+
